@@ -1,9 +1,10 @@
-import React from 'react'
+// import React from 'react'
+import Projects from "./components/Projects";
 import './App.css'
 
 const App = () => {
   return (
-    <>
+    <div className='container'>
     <h1>✅ FULL REDUX CONCEPT</h1>
     <h2>🟥 1. Store</h2>
     <h3>Definition:</h3>
@@ -107,8 +108,12 @@ const App = () => {
 <p> A method that listens for store updates.</p>
 <p>Simple words:
 👉 Runs automatically whenever Redux state changes.</p>
-    </>
+
+
+ <Projects />
+
+    </div>
   )
 }
-
+ 
 export default App
