@@ -1,14 +1,14 @@
-## Redux Toolkit (RTK)
+## React-redux
 
-A minimal and well-structured overview of Redux Toolkit concepts.
+A minimal and well-structured overview of React-Redux.
 
 ---
 
 ## Core Concepts
 
-- Redux Toolkit
-- configureStore
-- createSlice
+- Redux 
+- Store
+- state
 - initialState
 - reducers
 - actions
