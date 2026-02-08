@@ -195,7 +195,33 @@ function App() {
           ))}
         </div>
       )}
-    </div>
+
+            {/* ================= FOOTER ================= */}
+      <footer className="footer">
+        <p>
+          🔗 Source Code:{" "}
+          <a
+            href="https://github.com/Monisasmal/Redux-Concept"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </p>
+
+        <div className="footer-card">
+          <h2>Why Learn Redux?</h2>
+          <p>
+            Redux is a popular state management library for React.
+            This page explains Redux concepts with real-world examples
+            and working Redux projects for beginners and developers.
+          </p>
+        </div>
+      </footer>
+
+ </div>
+ 
+    
   );
 }
 
