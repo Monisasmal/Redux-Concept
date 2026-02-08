@@ -1,74 +1,108 @@
-/* Page Layout */
 body {
-  background: #d3e0fa; 
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column; 
+  font-family: Arial, sans-serif;
+  background: #eef3fb;
 }
 
-.container{
-  margin: 20px 0px 50px;
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
 }
 
-/* Container */
 h1 {
   text-align: center;
-  padding: 20px;
-  background: #0077ff;
-  color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
+  color: #0077ff;
 }
 
-/* Section Heading */
-h2 {
-  background: #ffffff;
-  padding: 12px 16px;
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.nav button {
+  padding: 10px 16px;
+  border: none;
   border-radius: 8px;
-  border-left: 6px solid #0077ff;
-  margin-top: 25px;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
+  cursor: pointer;
+  background: #dbe7ff;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
-/* Sub Heading */
-h3 {
-  margin-top: 10px;
-  font-size: 18px;
-  color: #333;
+.nav button:hover {
+  background: #0077ff;
+  color: white;
 }
 
-/* Paragraph Styling */
-p {
-  margin: 5px 0 12px 0;
+/* SECTION */
+
+.section h2 {
+  border-left: 5px solid #0077ff;
   padding-left: 10px;
-  border-left: 3px solid #e0e0e0;
-  color: #444;
+  margin: 20px 0;
 }
 
-/* Example Box */
-.example-box {
-  background: #eef6ff;
-  padding: 10px;
-  border-radius: 6px;
-  border-left: 4px solid #0077ff;
-  font-family: monospace;
-  color: #333;
+/* CARD */
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
   margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* List Styling */
-ul {
-  background: #ffffff;
-  padding: 10px 20px;
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  margin-top: 6px;
+}
+
+.example {
+  margin-top: 8px;
+  background: #f5f7ff;
+  padding: 8px;
   border-radius: 6px;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.06);
-  border-left: 4px solid #0077ff;
+  font-size: 14px;
 }
 
-ul li {
-  margin: 5px 0;
-  padding: 5px 0;
+/* LINKS */
+
+.card a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .app {
+    padding: 12px;
+  }
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .card {
+    padding: 12px;
+  }
 }
