@@ -26,9 +26,7 @@ A minimal and well-structured overview of React-Redux.
 
 ----
 
-**🙋‍♀️ Author**
-
-## Manaswini Sasmal
+## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643
 
